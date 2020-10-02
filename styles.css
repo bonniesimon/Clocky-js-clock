@@ -7,7 +7,7 @@
 
 body{
     /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,222,239,1) 0%, rgba(254,237,245,1) 48.5%, rgba(239,175,186,0.50) 100.2% ); */
-    background: #F5F5F5;
+    background: black;
 }
 .main{
     height: 100vh;
@@ -18,17 +18,20 @@ body{
 }
 
 .clockWrapper{
-    background: #D6E6F2;
-    height:20em;
+   
+    background-image: url('./clock.png');
+    
+    background-position-x: center;
+   /* height:20em;
     width: 40em; 
-    position: relative;
-    padding: 5rem;
+    position: relative;*/
+   /* padding: 5rem;*/
 }
 
 .badge{
     background: #29b6f6;
     padding: 5px 10px;
-    width: max-content;
+   /* width: max-content;*/
     font-family: sans-serif;
     color: whitesmoke;
     font-weight: bolder;
@@ -38,8 +41,9 @@ body{
     left: 43%;
 }
 
-.clock{
+/*.clock{
     background-color: #303841;
+    
     color: #D6E6F2;
     padding: 5px 10px;
     height: 100%;
@@ -47,5 +51,5 @@ body{
     text-align: center;
     padding-top: 2rem;
     border-radius:4px; 
-}
+}*/
 
